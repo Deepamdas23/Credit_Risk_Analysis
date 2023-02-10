@@ -5,7 +5,7 @@ Using Python to build and evaluate several machine learning models to predict cr
 ## Results
 1. Naive Random Oversampling
 ![](Resources/RandomOverSampler.PNG)
-Here it can be noted that the balancd accuracy score is approximately 65%. This means that the model predicted the credit risk accurately 65% times. Althogh its a good score, it is not excellent. The high risk precision is about 1% only with 60% sensitivity. Due to the high number of low_risk population, its precision is almost 100% with a sensitivity of 65%. This shows that the precision scores for this type of model are greatly skewed towards the low risk loans. The low risk loans were predicted accurately however the high risk loans were not.Hence this model is not a good choice for identifying the high risk loans.
+Here it can be noted that the balancd accuracy score is approximately 65%. This means that the model predicted the credit risk accurately 65% times. Althogh its a good score, it is not excellent. The high risk precision is about 1% only with 61% sensitivity. Due to the high number of low_risk population, its precision is almost 100% with a sensitivity of 69%. This shows that the precision scores for this type of model are greatly skewed towards the low risk loans. The low risk loans were predicted accurately however the high risk loans were not.Hence this model is not a good choice for identifying the high risk loans.
 
 2. Smote Oversampling
 ![](Resources/SMOTE.PNG)
